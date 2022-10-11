@@ -1,0 +1,19 @@
+.header {
+    font-family: $fuenteHeading;
+    background-color: $negro;
+    padding: $spacing*2 $spacing*2;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    color: $blanco;
+}
+
+.header-nav-lista {
+    display: flex;
+}
+
+.nav-link {
+    margin: $spacing;
+}

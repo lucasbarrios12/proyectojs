@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #252525;
+  color: #ffffff; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+.conteiner {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto; }
+
+.header {
+  font-family: "PT Sans", sans-serif;
+  background-color: #000000;
+  padding: 2rem 2rem; }
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff; }
+
+.header-nav-lista {
+  display: flex; }
+
+.nav-link {
+  margin: 1rem; }
+
+.main-banner {
+  background-image: url("https://dummyimage.com/1080x500/000/fff");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 30rem; }
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 60%; }
+
+.main-titulo {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem; }
+
+.main-texto {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 1.5rem; }
+
+.main-tienda-producto {
+  width: 10rem;
+  height: 16rem;
+  background-color: #000000;
+  text-align: center;
+  padding-top: 1rem; }
+
+.main-tienda-imagen {
+  max-width: 90%;
+  max-height: 75%; }
+
+.main-tienda-titulo {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0.5rem; }
+
+.footer {
+  background-color: #000000;
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem; }
+
+.footer-posicionamiento {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem; }
+
+.footer-link {
+  display: flex; }
+
+.footer-seccion {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem; }
+
+.footer-seccion-titulo {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem; }
+
+.footer-a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+  text-align: left;
+  margin: 0.33333rem 0; }

@@ -1,0 +1,19 @@
+.main-tienda-producto {
+    width: 10rem;
+    height: 16rem;
+    background-color: $negro;
+    text-align: center;
+    padding-top: $spacing;
+}
+
+.main-tienda-imagen {
+    max-width: 90%;
+    max-height: 75%;
+}
+
+
+.main-tienda-titulo {
+    font-size: 0.8rem;
+    font-family: $fuenteParrafos;
+    margin-top: $spacing/2;
+}   

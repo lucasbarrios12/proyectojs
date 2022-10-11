@@ -1,0 +1,38 @@
+.footer {
+    background-color: $negro;
+    margin-top: $spacing*2;
+    text-align: center;
+    padding-top: $spacing*2;
+    padding-bottom: $spacing/2;
+}
+
+.footer-posicionamiento {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: $spacing/2;
+}
+
+.footer-link {
+    display: flex;
+}
+
+.footer-seccion {
+    display: flex;
+    flex-direction: column;
+    margin: 0 $spacing*2;
+}
+
+.footer-seccion-titulo {
+    font-family: $fuenteHeading;
+    font-weight: 700;
+    margin-top: $spacing/2;
+    margin-bottom: $spacing/2;
+    font-size: 1rem;    
+}
+
+.footer-a {
+    font-family: $fuenteParrafos;
+    font-size: 0.7rem;
+    text-align: left;
+    margin: $spacing/3 0;
+}

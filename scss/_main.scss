@@ -1,0 +1,32 @@
+.main-banner {
+    background-image: url("https://dummyimage.com/1080x500/000/fff");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 30rem;
+}
+
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.main-titulo {
+    font-family: $fuenteHeading;
+    margin-top: $spacing*2;
+    margin-bottom: $spacing;
+    font-size: 2rem;
+}
+
+.main-texto {
+    font-family: $fuenteParrafos;
+    font-weight: 400;
+    margin: $spacing 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
