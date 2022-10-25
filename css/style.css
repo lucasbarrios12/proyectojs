@@ -14,11 +14,11 @@ a {
   text-decoration: none;
   color: #ffffff; }
 
-.conteiner {
+#catalogo {
   width: 70%;
   display: flex;
   justify-content: center;
-  margin: 2rem auto; }
+  margin: 0 auto; }
 
 .header {
   font-family: "PT Sans", sans-serif;
@@ -41,6 +41,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  max-width: 100%;
   width: 100vw;
   height: 30rem; }
 
@@ -64,21 +65,56 @@ a {
   text-align: center;
   line-height: 1.5rem; }
 
-.main-tienda-producto {
-  width: 10rem;
-  height: 16rem;
+.conteiner {
+  display: flex;
+  margin-top: 2rem; }
+
+.card {
+  width: 15rem;
+  height: 22rem;
   background-color: #000000;
   text-align: center;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  margin: 0 auto; }
 
 .main-tienda-imagen {
   max-width: 90%;
-  max-height: 75%; }
+  max-height: 75%;
+  width: 90%;
+  height: 75%; }
 
 .main-tienda-titulo {
   font-size: 0.8rem;
   font-family: "Open Sans", sans-serif;
   margin-top: 0.5rem; }
+
+.categorias {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 15%;
+  padding: 1rem 0;
+  margin-left: 5%; }
+
+.categoria-input {
+  width: 80%;
+  padding: 0.5rem 0;
+  background-color: #10411b;
+  border: 0;
+  cursor: pointer;
+  margin: 1rem auto; }
+
+.modal-contenedor {
+  display: flex;
+  align-items: center;
+  background-color: #252525; }
+
+.posicionamiento {
+  flex-direction: column; }
+
+.img-carrito {
+  width: 10rem;
+  padding: 1rem; }
 
 .footer {
   background-color: #000000;

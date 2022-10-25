@@ -5,13 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    
+    
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
     <link rel="stylesheet" href="../css/style.css">
 
     <title>Librería Fénix</title>
 </head>
 <body>
     <header class="header">
-        <div class="header-nav">
+        <nav class="navbar navbar-light bg-dark min-vw-100">
+            <h2 class="p-3 text-white">Librería Fenix</h2>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal"
+                >
+                  <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        <!-- <div class="header-nav">
             <a href="../index.html">Librería Fénix</p></a><p>
             <div>
                 <ul class="header-nav-lista">
@@ -29,19 +58,60 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </header>
     <main>
+
+        <div class="container-xl">
+            <div class="modal" tabindex="-1" role="dialog" id="modal">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Carrito</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body"></div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id="vaciarCarrito">
+                      Vaciar carrito
+                    </button>
+                    <button type="button" id="procesarCompra" class="btn btn-primary">
+                      Continuar compra
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+      
+                    <span>Precio total:</span>
+                    <p class="text-center" id="precioTotal"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="main-banner"></div>
 
-        <section class="conteiner">
-            <div class="main-tienda-producto">
-                <img class="main-tienda-imagen" src="../images/martial-peak.jpg" alt="">
-                <h4 class="main-tienda-titulo">Martial Peak Ch 1-6</h4>
-                <p>$400</p>
-
+        <div class="conteiner">
+            <div class="categorias">
+                <form action="">
+                    <input type="text" id="cat-search">
+                    <input id="boton" type="button" value="Buscar">
+                    <input id="boton-all" type="button" value="Ver todos">
             </div>
-        </section>
+
+            <div id="catalogo"></div>
+        </div>
 
     </main>
     <footer>
@@ -104,6 +174,8 @@
                 <p class="footer__seccion__titulo">Todos los derechos reservados || Lucas Barrios</p>
             </div>
     </footer>
+    
     <script src="../script.js"></script>
+    <script src="../bootstrap.bundle.min.js"></script>
 </body>
 </html>

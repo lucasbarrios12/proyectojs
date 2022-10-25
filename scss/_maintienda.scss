@@ -1,14 +1,22 @@
-.main-tienda-producto {
-    width: 10rem;
-    height: 16rem;
+.conteiner {
+    display: flex;
+    margin-top: $spacing*2;
+}
+
+.card {
+    width: 15rem;
+    height: 22rem;
     background-color: $negro;
     text-align: center;
     padding-top: $spacing;
+    margin: 0 auto;
 }
 
 .main-tienda-imagen {
     max-width: 90%;
     max-height: 75%;
+    width: 90%;
+    height: 75%;
 }
 
 
@@ -16,4 +24,47 @@
     font-size: 0.8rem;
     font-family: $fuenteParrafos;
     margin-top: $spacing/2;
-}   
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    background-color: $negro;
+    width: 15%;
+    padding: $spacing 0;
+    margin-left: 5%;
+    
+}
+
+.categoria-input {
+    width: 80%;
+    padding: $spacing/2 0;
+    background-color: $primario;
+    border: 0;
+    cursor: pointer;
+    margin: $spacing auto;
+}
+
+
+.modal-contenedor {
+    display: flex;
+    align-items: center;
+    background-color: $grisoscuro;
+}
+
+.posicionamiento {
+    flex-direction: column;
+}
+
+.img-carrito {
+    width: 10rem;
+    padding: $spacing;
+}
+
+
+// .lista-categoria {
+//     font-family: $fuenteHeading;
+//     font-size: 1.2rem;
+//     padding: 0 35%;
+
+// }
