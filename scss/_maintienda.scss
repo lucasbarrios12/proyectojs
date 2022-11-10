@@ -9,7 +9,7 @@
     background-color: $negro;
     text-align: center;
     padding-top: $spacing;
-    margin: 0 auto;
+    margin: 1.5rem auto;
 }
 
 .main-tienda-imagen {
@@ -17,6 +17,7 @@
     max-height: 75%;
     width: 90%;
     height: 75%;
+    margin: 0 auto;
 }
 
 
@@ -59,9 +60,18 @@
 .img-carrito {
     width: 10rem;
     padding: $spacing;
+    margin: 0;
 }
 
+.modal-content {
+    background-color: $grisoscuro;
+}
 
+.boton-carrito {
+    background-color: $blanco;
+    border: 0;
+    padding: 0.5rem;
+}
 // .lista-categoria {
 //     font-family: $fuenteHeading;
 //     font-size: 1.2rem;

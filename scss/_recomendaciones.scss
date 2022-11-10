@@ -1,0 +1,31 @@
+.card-resumen {
+    display: flex;
+
+}
+
+
+.card-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-recomendaciones-imagen {
+    margin: $spacing 1rem;
+    height: 15rem;
+    width: 12rem;
+
+}
+
+.main-recomendaciones-titulo {
+    font-family: $fuenteHeading;
+    font-size: 1.4rem;
+    margin-top: $spacing/2;
+
+}
+
+.main-recomendaciones-resumen {
+    width: 80%;
+    font-family: $fuenteParrafos;
+    font-size: 0.8rem;
+    margin-top: $spacing*3;
+}

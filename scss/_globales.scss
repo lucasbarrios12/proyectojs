@@ -7,8 +7,8 @@
 body {
     background-color: $grisoscuro;
     color: $blanco;
+    overflow-x: hidden;
 }
-
 li{
     list-style: none;
 }
@@ -16,6 +16,11 @@ li{
 a {
     text-decoration: none;
     color: $blanco;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
 }
 
 #catalogo {
@@ -23,4 +28,5 @@ a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
