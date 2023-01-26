@@ -1,19 +1,93 @@
 [
-    {
-        "img": "../images/martial-peak.jpg",
-        "nombre": "Martial Peak",
-        "resumen": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
+        {
+            "nombre": "Martial Peak",
+            "id": "1",
+            "precio": "100",
+            "stock": "10",
+            "cat": "manhua",
+            "img": "../images/martial-peak.jpg",
+            "cant": "1"
+        },
 
-    {
-        "img": "../images/el-señor-de-los-anillos.jpg",
-        "nombre": "El señor de los anillos",
-        "resumen": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
+        {
+            "nombre": "One piece",
+            "id": "2",
+            "precio": "150",
+            "stock": "10",
+            "cat": "manga",
+            "img": "../images/one-piece.jpg",
+            "cant": "1"
+        },
 
-    {
-        "img": "../images/harry-potter-y-la-piedra-filosofal.jpg",
-        "nombre": "Harry Potter",
-        "resumen": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    }
-]
+        {
+            "nombre": "El señor de los anillos",
+            "id": "3",
+            "precio": "200",
+            "stock": "10",
+            "cat": "libro",
+            "img": "../images/el-señor-de-los-anillos.jpg",
+            "cant": "1"
+        },
+
+        {
+            "nombre": "Against the gods",
+            "id": "4",
+            "precio": "90",
+            "stock": "10",
+            "cat": "manhua",
+            "img": "../images/against-the-gods.jpg",
+            "cant": "1"
+        },
+
+        {
+            "nombre": "Apotheosis",
+            "id": "5",
+            "precio": "150",
+            "stock": "10",
+            "cat": "manhua",
+            "img": "../images/apotheosis.jpg",
+            "cant": "1"
+        },
+
+        {
+            "nombre": "Como ganar amigos e influir sobre las personas",
+            "id": "6",
+            "precio": "95",
+            "stock": "10",
+            "cat": "libro",
+            "img": "../images/como-ganar-amigos-e-influir-sobre-las-personas.jpg",
+            "cant": "1"
+        },
+
+        {
+            "nombre": "Harry Potter y la piedra filosofal",
+            "id": "7",
+            "precio": "150",
+            "stock": "10",
+            "cat": "libro",
+            "img": "../images/harry-potter-y-la-piedra-filosofal.jpg",
+            "cant": "1"
+        },
+
+        {
+            "nombre": "Jujutsu Kaisen vol 1",
+            "id": "9",
+            "precio": "100",
+            "stock": "10",
+            "cat": "manga",
+            "img": "../images/jujutsu-kaisen-vol-1.jpg",
+            "cant": "1"
+        },
+
+        {
+            "nombre": "Naruto vol 1",
+            "id": "10",
+            "precio": "150",
+            "stock": "10",
+            "cat": "manga",
+            "img": "../images/naruto-vol-1.jpg",
+            "cant": "1"
+        }
+    ]
+
+ 

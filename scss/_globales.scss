@@ -5,10 +5,18 @@
 }
 
 body {
-    background-color: $grisoscuro;
+    background-color: $fondo;
     color: $blanco;
     overflow-x: hidden;
 }
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 li{
     list-style: none;
 }
@@ -21,6 +29,7 @@ a {
 
 p {
     margin: 0;
+    font-family: $fuenteParrafos;
 }
 
 #catalogo {

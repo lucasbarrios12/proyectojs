@@ -1,33 +1,142 @@
-.main-banner {
-    background-image: url("../images/banner.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    width: 100vw;
-    height: 30rem;
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+#mainProductos {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#interesantes {
+    display: flex;
+    
 }
 
 
-.main-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 60%;
+.main-conteiner-titulo{
+    margin-top: $spacing*2.5;
+    border: 3px solid $primario;
+    box-shadow: 5px 5px $primario;
+    
 }
 
 .main-titulo {
     font-family: $fuenteHeading;
-    margin-top: $spacing*2;
-    margin-bottom: $spacing;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: $spacing/2;
+
 }
 
-.main-texto {
+.main-card {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 18rem;
+
+
+}
+
+.main-card-img {
+    width: 10rem;
+    height: 15rem;
+}
+
+.main-card-titulo {
+    overflow: hidden;
+    max-width: 100%;
+    height: 1.2rem;
+    font-size: 1rem;
+    color: $primario;
+    font-family: $fuenteHeading;
+    font-weight: bold;
+    margin: $spacing/2 0 0.25rem 0;
+}
+
+.main-card-precio {
     font-family: $fuenteParrafos;
-    font-weight: 400;
-    margin: $spacing 0;
+}
+
+// MAIN SECCION INFORMACION
+
+.main-seccion-nosotros {
+    background-color: $primario;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.main-titulo-nosotros {
+    font-family: $fuenteHeading;
     text-align: center;
-    line-height: 1.5rem;
+    margin: 1rem;
+}
+
+
+.main-info {
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.main-secciones {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-seccion-img {
+    width: 18rem;
+    height: 12rem;
+}
+
+.main-seccion-info {
+    width: 18rem;
+}
+
+.main-seccion-titulo {
+    font-family: $fuenteHeading;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main-seccion-texto{
+    font-family: $fuenteParrafos;
+}
+
+// seccion recomendaciones
+
+
+.main-recomendacion {
+    margin: 2rem auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.main-recomendacion-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem;
+}
+
+
+.main-recomendacion-img {
+    width: 15rem;
+    height: 20rem;
+}
+
+.main-recomendacion-derecha {
+    margin: 2rem auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.main-recomendacion-parrafo {
+    text-align: justify;
 }

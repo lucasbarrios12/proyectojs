@@ -1,29 +1,103 @@
-.header {
-    font-family: $fuenteHeading;
-    background-color: $negro;
-    padding: $spacing $spacing;
+.logo {
+    width: 4rem;
+    height: 4rem;
 }
 
 .header-nav {
+    padding: 0.5rem;
+    // background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: space-between;
     color: $blanco;
     align-items: center;
-}
-
-
-.nav-home {
-    text-align: center;
-    font-family: $fuenteHeading;
-    font-weight: 700;
-    font-size: 1.4rem;
+    position: absolute;
+    width: 100%;
+    // backdrop-filter: blur(0.4rem);
+    // -webkit-backdrop-filter: blur(0.4rem);
 }
 
 .header-nav-lista {
     display: flex;
     margin-bottom: 0;
+    font-family: $fuenteFirma;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .nav-link {
     margin: $spacing;
+}
+
+// SLIDER
+
+
+.header {
+    margin-bottom: 8rem;
+}
+
+.slider {
+    width: 100vw;
+    height: 600px;
+    overflow: hidden;
+}
+
+.header-slider-lista {
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 300%;
+    padding: 0;
+}
+
+.header-slider-item {
+    width: 100%;
+    list-style: none;
+}
+
+.header-slider-img {
+    width: 100%;
+    height: 58rem;
+    
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    29%{margin-left: 0;}
+
+    33%{margin-left: -100%;}
+    60%{margin-left: -100%;}
+
+    66%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+
+
+.header-slider-info {
+    width: 51rem;
+}
+
+.header-slider-titulo {
+    margin-top: -25rem;
+    margin-left: 4rem;
+}
+
+.header-slider-texto {
+    margin-left: 4rem;
+    width: 50rem;
+    margin-bottom: 0.5rem ;
+}
+
+.header-slider-boton {
+    margin-left: 4rem;
+}
+
+.header-slider-boton-estilo {
+    border: none;
+    border-radius: 3px;
+    background-color: $primario;
+    font-size: 0.8rem;
+    width: 6rem;
+    height: 2.5rem;
+    font-family: $fuenteParrafos;
+    font-weight: bold;
+    
 }

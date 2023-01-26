@@ -2,11 +2,11 @@
   "name": "proyectojs",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "bootstrap.bundle.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"" 
+    "watch-css": "nodemon -e scss -x \"npm rum build-css\""
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Lukz22/proyectojs#readme",
   "devDependencies": {
-    "node-sass": "^7.0.3",
+    "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
   }
 }
